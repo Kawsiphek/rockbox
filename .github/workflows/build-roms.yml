@@ -1,6 +1,7 @@
 name: Build latest ROMs
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "y1" ]
 
